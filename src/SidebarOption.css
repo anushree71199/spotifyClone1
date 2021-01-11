@@ -1,0 +1,24 @@
+.sidebarOption{
+    display: flex;/*to display the icons and name in one line*/
+    align-items: center;/*this will display the icons a little aligned*/
+    color: grey;
+    height: 40px; /*for setting the letters far from each other*/
+    cursor: pointer; /*For the finger pointer*/
+    transition: 200ms color ease-in; /*For transition */
+}
+.sidebar > hr{
+    border: 0.5px solid #282828;
+    width: 90%;
+    margin: 10px auto;
+}
+.sidebarOption:hover{
+    color: white;
+}
+.sidebarOption_icon{
+    padding: 0px 10px;
+}
+.sidebarOption > p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+}
